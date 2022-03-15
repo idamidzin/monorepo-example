@@ -1,9 +1,8 @@
 {
-  "name": "auth",
+  "name": "@idamidzin/auth",
   "version": "0.0.1",
   "description": "",
-  "author": "",
-  "private": true,
+  "author": "Idam Idzin Dimiati",
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
@@ -67,5 +66,11 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "repository": {
+    "url": "https://github.com/idamidzin/monorepo-example"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
